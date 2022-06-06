@@ -102,7 +102,7 @@ DATABASES = {
         'USER': 'aqif',
         'PASSWORD': 'p',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
