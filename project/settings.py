@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'rentalServiceBackend',
+        'NAME': 'postgresql-spherical-71299',
         'USER': 'aqif',
         'PASSWORD': 'p',
         'HOST': 'localhost',
