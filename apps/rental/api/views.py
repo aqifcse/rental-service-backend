@@ -4,6 +4,6 @@ from .serializers import RentalSerializer
 from rest_framework import viewsets
 
 # Create your views here.
-class MovieViewSet(viewsets.ModelViewSet):
+class RentViewSet(viewsets.ModelViewSet):
     serializer_class = RentalSerializer
     queryset = Rental.objects.all()
