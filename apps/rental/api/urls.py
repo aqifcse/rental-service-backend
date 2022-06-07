@@ -1,6 +1,6 @@
-from apps.rental.views import MovieViewSet
+from apps.rental.api.views import MovieViewSet
 from rest_framework.routers import DefaultRouter
-from apps.rental import views
+from apps.rental.api import views
 
 router = DefaultRouter()
 router.register(r'movies', views.MovieViewSet, basename='movie')
