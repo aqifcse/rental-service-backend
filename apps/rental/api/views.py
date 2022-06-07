@@ -2,6 +2,7 @@ from django.shortcuts import render
 from ..models import Rental
 from .serializers import RentalSerializer
 from rest_framework import viewsets, generics
+from rest_framework import filters
 
 # Create your views here.
 class RentViewSet(viewsets.ModelViewSet):
@@ -9,12 +10,8 @@ class RentViewSet(viewsets.ModelViewSet):
     queryset = Rental.objects.all()
 
 class SearchRentalInfoAPIView(generics.ListCreateAPIView):
+    search_fields = ['name', 'code', 'type', 'availability']
+    filter_backends = (filters.SearchFilter,)
+    queryset = Rental.objects.all()
     serializer_class = RentalSerializer
-    def search(request):
-        query = request.GET.get("q")  
-        if query:
-            queryset = Rental.objects.filter(
-                Q(name=query)|   
-                Q(code=query)|
-                Q(type=query)
-                ).distinct()
+    
