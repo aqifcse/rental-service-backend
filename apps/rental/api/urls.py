@@ -1,7 +1,8 @@
-from apps.rental.api.views import RentViewSet
-from rest_framework.routers import DefaultRouter
 from apps.rental.api import views
 
-router = DefaultRouter()
-router.register(r'rents', views.RentViewSet, basename='rent')
-urlpatterns = router.urls
+from django.urls import path
+
+urlpatterns = [
+    path('rents/', views.RentViewSet.as_view({'get': 'list'}), name='rents'),
+    path('searchRentalInfo/<str:q>', views.SearchRentalInfoAPIView.as_view())
+]
