@@ -10,7 +10,7 @@ class RentViewSet(viewsets.ModelViewSet):
     queryset = Rental.objects.all()
 
 class SearchRentalInfoAPIView(generics.ListCreateAPIView):
-    search_fields = ['name', 'code', 'type', 'availability']
+    search_fields = ['name', 'code', 'type']
     filter_backends = (filters.SearchFilter,)
     queryset = Rental.objects.all()
     serializer_class = RentalSerializer
