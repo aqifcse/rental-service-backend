@@ -24,7 +24,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [aqifcse/rental-service-backend](https://github.com/aqifcse/rental-service-backend)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|01/11/24 <br/>Report generated|
+|12<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -69,7 +69,7 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[Django](https://pypi.org/project/Django)|v4.0.5|06/06/22|aqifcse |BSD-3-Clause|[CVE-2023-31047](https://github.com/advisories/GHSA-r3xc-prgr-mg9p) (Critical)<br/>[CVE-2023-36053](https://github.com/advisories/GHSA-jh3w-4vvf-mjgr) (High)<br/>[CVE-2022-36359](https://github.com/advisories/GHSA-8x94-hmjh-97hq) (High)<br/>[CVE-2023-24580](https://github.com/advisories/GHSA-2hrw-hx67-34x6) (High)|
+|[Django](https://pypi.org/project/Django)|v4.0.5|06/06/22|aqifcse |BSD-3-Clause|[CVE-2023-31047](https://github.com/advisories/GHSA-r3xc-prgr-mg9p) (Critical)<br/>[CVE-2022-36359](https://github.com/advisories/GHSA-8x94-hmjh-97hq) (High)<br/>[CVE-2023-24580](https://github.com/advisories/GHSA-2hrw-hx67-34x6) (High)<br/>[CVE-2023-36053](https://github.com/advisories/GHSA-jh3w-4vvf-mjgr) (High)|
 |[asgiref](https://pypi.org/project/asgiref)|v3.5.2|06/06/22|aqifcse |BSD-3-Clause|N/A|
 |[django-cors-headers](https://pypi.org/project/django-cors-headers)|v3.13.0|06/06/22|aqifcse |MIT|N/A|
 |[djangorestframework](https://pypi.org/project/djangorestframework)|v3.13.1|06/06/22|aqifcse |BSD-3-Clause|N/A|
